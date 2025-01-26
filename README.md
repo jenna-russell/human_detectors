@@ -13,7 +13,7 @@ If you use this dataset, please cite it as follows:
 ```
 @misc{russell-et-al-2025,
       title={}, 
-      author={Jenna Russell, Marzena Karpinska and Mohit Iyyer},
+      author={Jenna Russell and Marzena Karpinska and Mohit Iyyer},
       year={2025},
       eprint={0000.00000},
       archivePrefix={arXiv},

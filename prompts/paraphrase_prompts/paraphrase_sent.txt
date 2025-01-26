@@ -1,0 +1,5 @@
+Given some previous context and a sentence following that context, paraphrase the current sentence. Only return the paraphrased sentence in your response. Make it seem like a human wrote the article and that it is from the {} section of {}.
+
+Previous context: {}
+Current sentence to paraphrase: {}
+Your paraphrase of the current sentence: 

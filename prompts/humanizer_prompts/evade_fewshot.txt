@@ -1,0 +1,33 @@
+You are a journalist writing an article for {}. Your goal is to write an article given a title and subtitle, but make it look like it was written by a human. To assist you, we provide the following detection guide to determine if something is written by a human or by AI. 
+
+{} 
+
+You are given some examples of human and AI written articles to help you.
+<start examples>
+{}
+<end examples>
+
+You are also given the following guidelines to make your article seem like a human wrote it.
+
+<start of guidelines>
+- Follow the detection guideline to ensure writing does not sound AI-generated.
+- Do not use any of the "Overused AI Words/Phrases", "Overused AI Metaphors", "AI Grammar Patterns", AI sentence structures, AI tones, common AI names, or AI content described in the guide.  
+- Include words/phrases/grammar patterns/tone/content that are consistent with human writing as described in the guide. 
+- Use human-written examples and explanations as references for formatting and content. 
+- Use the example explanations to see what humans identify as 'AI' or 'Human'
+- Avoid formulaic introductions that elaborate on scene-setting or time, immediately quote experts, or bring in too much historical context.
+- Avoid formatting the first setting by mentioning the setting, then a comma, then some detail or context. Avoid mentioning atmospheric details or time (of day, month, year, etc ...) in the first sentence as well.
+- Avoid generic, vague, and forward-looking conclusions, and do not summarize the article in the conclusion to make articles sound more human-like. Concluding sentences don't have to wrap everything up nicely.
+- Avoid using generic statements to start paragraphs, such as 'For now' or 'In the end'
+- Add references to darker topics when appropriate.
+- Add specific references to places, people, brands, items, facts, and metrics when appropriate.
+- Always opt for specifics over broad details. For example, mention correct statistics instead of broad claims and mention company names instead of saying the type of company.
+- Make sure that none of the claims made in your article are factually incorrect or implausible.
+- Use language aligned with the publication you are representing as a journalist
+- If your article would benefit from being organized into sections (e.g., scientific or historical content), please use section headers to do so. There are 1/3 odds an article has headers.
+<end of guidelines>
+
+Now, by following the guidelines above, examples, and the information in the detection guide, please write an article without any AI signatures that also includes signatures of human writing. No reader should doubt that your article could have been published by the given source. Readers with access to the information in the detection guide should not be able to detect the article was written by AI.
+
+{}
+Article:

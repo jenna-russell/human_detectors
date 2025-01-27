@@ -12,7 +12,7 @@
 If you use this dataset, please cite it as follows:
 ```
 @misc{russell-et-al-2025,
-      title={}, 
+      title={People who frequently use ChatGPT for writing tasks are accurate and robust detectors of AI-generated text}, 
       author={Jenna Russell and Marzena Karpinska and Mohit Iyyer},
       year={2025},
       eprint={0000.00000},

@@ -4,8 +4,52 @@
 
 
 
-## DATA STRUCTURE
+## DATA
 
+
+Annotation data is stored in a JSON file, formatted as follows:
+
+```markdown
+* `generation_model`: (str) 
+* `prompt_id`: (int)
+* `title`: (str)
+* `sub-title`: (str)
+* `author`: (str)
+* `source`: (str)
+* `issue`: (str)
+* `section`: (str)
+* `link`: (str)
+* `article`: (str)
+* `id`: (int)
+* `ground_truth`: (str)
+* `pangram`: (str)
+* `pangram_humanizers`: (str)
+* `gptzero`: (str)
+* `e5_lora`: (int)
+* `RADAR`: (int)
+* `annotator_1`: (dict)
+      * `guess`: (str)
+      * `confidence`: (int)
+      * `comment`: (str)
+* `annotator_2`: (dict)
+      * `guess`: (str)
+      * `confidence`: (int)
+      * `comment`: (str)
+* `annotator_3`: (dict)
+      * `guess`: (str)
+      * `confidence`: (int)
+      * `comment`: (str)
+* `annotator_4`: (dict)
+      * `guess`: (str)
+      * `confidence`: (int)
+      * `comment`: (str)
+* `annotator_5`: (dict)
+      * `guess`: (str)
+      * `confidence`: (int)
+      * `comment`: (str)
+```
+
+Example entry
 ```json
 {"0":
    {
@@ -58,6 +102,8 @@
 }
 
 ```
+
+
 
 
 ## Citation Information

@@ -33,8 +33,8 @@ Annotation data is stored in a JSON file, formatted as follows:
 * `gptzero`: (str)
 * `e5_lora`: (int)
 * `RADAR`: (int)
-* `binoculars_lowfpr`
-* `bincoulars_accuracy`
+* `binoculars_lowfpr`: (str)
+* `bincoulars_accuracy`: (str)
 * `annotator_1`: (dict)
       * `guess`: (str)
       * `confidence`: (int)

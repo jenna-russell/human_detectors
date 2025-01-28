@@ -1,6 +1,6 @@
 # Human Detectors
 
-[![arxiv](https://img.shields.io/badge/arXiv-0000.00000-b31b1b.svg)](http://arxiv.org/abs/0000.00000)
+[![arxiv](https://img.shields.io/badge/arXiv-2501.15654-b31b1b.svg)](http://arxiv.org/abs/2501.15654)
 
 
 

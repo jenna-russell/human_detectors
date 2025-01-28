@@ -113,7 +113,7 @@ If you use this dataset, please cite it as follows:
       title={People who frequently use ChatGPT for writing tasks are accurate and robust detectors of AI-generated text}, 
       author={Jenna Russell and Marzena Karpinska and Mohit Iyyer},
       year={2025},
-      eprint={0000.00000},
+      eprint={2501.15654},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }

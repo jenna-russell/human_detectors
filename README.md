@@ -19,7 +19,7 @@ All prompts used to generate the articles (including `paraphrasing` and `humaniz
 
 ## ANNOTATION DATA
 
-Each expert annotator annotated a total of 300 articles (150 human-written and 150 machine-generated). Annotation data is stored in a JSON file, formatted as follows:
+Each expert annotator annotated a total of `300 articles` (150 human-written and 150 machine-generated). Annotation data is stored in a JSON file, formatted as follows:
 
 ```markdown
 * `generation_model`: (str) - the name of the model which generated the article

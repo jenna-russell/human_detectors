@@ -17,46 +17,46 @@ Please pull the latest version of the repo for an updated version of the dataset
 Annotation data is stored in a JSON file, formatted as follows:
 
 ```markdown
-* `generation_model`: (str) 
-* `prompt_id`: (int)
-* `title`: (str)
-* `sub-title`: (str)
-* `author`: (str)
-* `source`: (str)
-* `issue`: (str)
-* `section`: (str)
-* `link`: (str)
-* `article`: (str)
-* `id`: (int)
-* `ground_truth`: (str)
-* `pangram`: (str)
-* `pangram_humanizers`: (str)
-* `gptzero`: (str)
-* `e5_lora`: (int)
-* `RADAR`: (int)
-* `binoculars_lowfpr`: (str)
-* `bincoulars_accuracy`: (str)
-* `annotator_1`: (dict)
-      * `guess`: (str)
-      * `confidence`: (int)
-      * `comment`: (str)
-* `annotator_2`: (dict)
-      * `guess`: (str)
-      * `confidence`: (int)
-      * `comment`: (str)
-* `annotator_3`: (dict)
-      * `guess`: (str)
-      * `confidence`: (int)
-      * `comment`: (str)
-* `annotator_4`: (dict)
-      * `guess`: (str)
-      * `confidence`: (int)
-      * `comment`: (str)
-* `annotator_5`: (dict)
-      * `guess`: (str)
-      * `confidence`: (int)
-      * `comment`: (str)
-* `expert_majority_vote`: (str)
+* `generation_model`: (str) - the name of the model which generated the article
+* `prompt_id`: (int) - the unique prompt id
+* `title`: (str) - original title of the article
+* `sub-title`: (str) - original subtitle of the article
+* `author`: (str) - author of the original human article
+* `source`: (str) - source of the original human article
+* `issue`: (str) - publication date of the original human article
+* `section`: (str) - thematic section of the original human article
+* `link`: (str) - link to the original article
+* `article`: (str) - the article used for annotation (human or model-generated depending on the value in `generation_model`)
+* `id`: (int) - unique id
+* `ground_truth`: (str) - gold label (either "Human-written" or "Machine-generated")
+* `pangram`: (str) - output of the pangram detector
+* `pangram_humanizers`: (str) - output of the pangram humanizers detector
+* `gptzero`: (str) - output of the gptzero detector
+* `e5_lora`: (int) - output of the e5_lora detector
+* `RADAR`: (int) - output of the radar detector
+* `binoculars_lowfpr`: (str) - output of the binoculars detector set to prioritize low fpr
+* `bincoulars_accuracy`: (str) - output of the binoculars detector set to prioritize accuracy
+* `annotator_1`: (dict) - annotations done by annotator 1
+      * `guess`: (str) - label assigned by annotator 1
+      * `confidence`: (int) - self-assessed confidence of annotator 1 (5-point scale)
+      * `comment`: (str) - justification for their label submitted by annotator 1
+* `annotator_2`: (dict) - annotations done by annotator 2
+      * `guess`: (str) - label assigned by annotator 2
+      * `confidence`: (int) - self-assessed confidence of annotator 2 (5-point scale)
+      * `comment`: (str) - justification for their label submitted by annotator 2
+* `annotator_3`: (dict) - annotations done by annotator 3
+      * `guess`: (str) - label assigned by annotator 3
+      * `confidence`: (int) - self-assessed confidence of annotator 3 (5-point scale)
+      * `comment`: (str) - justification for their label submitted by annotator 3
+* `annotator_4`: (dict) - annotations done by annotator 4
+      * `guess`: (str) - label assigned by annotator 4
+      * `confidence`: (int) - self-assessed confidence of annotator 4 (5-point scale)
+      * `comment`: (str) - justification for their label submitted by annotator 4
+* `annotator_5`: (dict) - annotations done by annotator 5
+      * `guess`: (str) - label assigned by annotator 5
+      * `confidence`: (int) - self-assessed confidence of annotator 5 (5-point scale)
+      * `comment`: (str) - justification for their label submitted by annotator 5
+* `expert_majority_vote`: (str) - result of the majority vote (at least 3 out of 5 agree)
 ```
 
 Example entry

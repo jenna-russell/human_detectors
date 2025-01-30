@@ -29,9 +29,9 @@ Annotation data is stored in a JSON file, formatted as follows:
 * `article`: (str) - the article used for annotation (human or model-generated depending on the value in `generation_model`)
 * `id`: (int) - unique id
 * `ground_truth`: (str) - gold label (either "Human-written" or "Machine-generated")
-* `pangram`: (str) - output of the pangram detector
-* `pangram_humanizers`: (str) - output of the pangram humanizers detector
-* `gptzero`: (str) - output of the gptzero detector
+* `pangram`: (str) - detailed output of the pangram detector
+* `pangram_humanizers`: (str) - detailed output of the pangram humanizers detector
+* `gptzero`: (str) - detailed output of the gptzero detector
 * `e5_lora`: (int) - output of the e5_lora detector
 * `RADAR`: (int) - output of the radar detector
 * `binoculars_lowfpr`: (str) - output of the binoculars detector set to prioritize low fpr

@@ -51,10 +51,10 @@ Examples:
 python detect.py --text "Your text here" --model gpt-4o-2024-08-06 --key_file key.txt
 
 # Process multiple texts from CSV
-python detect.py --file texts.csv --output results.csv
+python detect.py --file texts.csv --output results.csv --key_file key.txt
 
 # Process without explanations
-python detect.py --file texts.json --no_explain
+python detect.py --file texts.json --no_explain --key_file key.txt
 ```
 
 ### Evasion
@@ -80,13 +80,13 @@ Options:
 Examples:
 ```bash
 # Evade detection for a single text
-python evade.py --text "Your text here" --publication "New York Times" --section "Technology"
+python evade.py --text "Your text here" --publication "New York Times" --key_file key.txt
 
 # Process multiple texts from CSV
-python evade.py --file texts.csv --publication "The Guardian" --section "Science" --test_detection
+python evade.py --file texts.csv --publication "The Guardian" --test_detection --key_file key.txt
 
 # Process with example texts
-python evade.py --file texts.json --publication "Reuters" --examples examples.txt --output results.csv
+python evade.py --file texts.json --publication "Reuters" --examples examples.txt --output results.csv --key_file key.txt
 ```
 
 ## Prompts

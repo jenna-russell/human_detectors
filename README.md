@@ -72,7 +72,6 @@ Options:
 - `--key_file KEY_FILE`: File containing API key
 - `--api_key API_KEY`: Direct API key input
 - `--publication PUBLICATION`: Target publication style (required)
-- `--section SECTION`: Article section
 - `--examples EXAMPLES`: File containing example texts
 - `--test_detection`: Test detection after evasion
 - `--output OUTPUT`: Output file path for results (CSV, default: ./evaded_results.csv)

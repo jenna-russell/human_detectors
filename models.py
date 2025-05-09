@@ -30,14 +30,14 @@ class Detector():
     def detect(self, text):
         if self.guide:
             if self.explain:
-                prompt = self.classify_main.format(self.detection_guide, text)
+                prompt = self.classify_zero_shot_cot_guide.format(self.detection_guide, text)
             else:
-                prompt = self.classify_simple.format(self.detection_guide, text)
+                prompt = self.classify_zero_shot_guide.format(self.detection_guide, text)
         else:
             if self.explain:
-                prompt = self.classify_no_guide.format(text)
+                prompt = self.classify_zero_shot_cot.format(text)
             else:
-                prompt = self.classify_no_guide_no_explain.format(text)
+                prompt = self.classify_zero_shot.format(text)
 
         response_text = self.llm.generate(prompt, sample=False)
 
